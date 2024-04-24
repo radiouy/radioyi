@@ -1,0 +1,70 @@
+	#player {
+	width: 64px; 									/* ancho del reproductor */
+	height: 64px; 									/* alto del reproductor */
+	padding: 10px;									/* dimensiones totales del reproductor 300 x 320 (sumando el padding) */
+		/* logo 280x300 */
+	/*background-color: transparent;						color de fondo */
+
+background-repeat: no-repeat;
+	background-position: 10px center;				/* posición del logo - eje x  eje y */
+	position: relative;
+	border-radius: 10px;
+	border: 0px solid #fff;
+	margin: auto;
+	/*box-shadow:0px 0px 40px rgba(0,0,0,.8) inset;*/
+
+  
+  }
+
+	#play{
+	height: 64px;  								/* alto botón play */
+	width: 64px;									/* ancho botón play */
+	/* background-image:url(../img/play.png); */
+        /*background-image:url(http://3.bp.blogspot.com/-luf17FWWjew/Vmd-hA-Yf9I/AAAAAAAAH3Q/ZAb_BK1IIok/s1600/play.png);*/
+				background-image:url(https://3.bp.blogspot.com/-m4IF-p6n19o/WAhKtNm0dTI/AAAAAAAADUM/AAFQnDtiGJ4hBUmv2O0ctFFg-Jz836fDQCLcB/s1600/play.png);		
+        background-repeat: no-repeat;		/* imagen botón play */	
+	}
+	
+	/*#play:hover{*/
+	/*height: 64px;									 alto botón play activado (cuando el puntero del mouse está encima) */
+	/*width: 64px;									ancho botón play activado */
+	/*background-image:url(../img/playh.png);		}	imagen botón play activado */
+	
+	
+	#pause{
+	height: 64px;  								/* alto botón pausa */
+	width: 64px;									/* ancho botón pausa */
+	/*background-image:url(http://1.bp.blogspot.com/-tvYbNjby43g/Vmd-hEr6gtI/AAAAAAAAH3M/CvnZSrCJDaE/s1600/pausa.png);*/
+	background-image:url(https://1.bp.blogspot.com/-CVjjiZHfnk4/WAhKu8yApKI/AAAAAAAADUQ/BRuej8X9aUEKNM-eaWNyxTd4lkiZq49CACLcB/s1600/pausa.png);
+        /* background-image:url(../img/pausa.png); */	
+        background-repeat: no-repeat;		/* imagen botón pausa */	
+	}
+	
+	/* #pause:hover{ */
+	/*height: 90px;									alto botón pausa activado (cuando el puntero del mouse está encima) */
+	/*width: 90px;									 ancho botón pausa activado */
+	/*background-image:url(../img/pausah.png);	}	imagen botón pausa activado */
+	
+
+	
+	#play, #pause {									/* posición botones play y pause */
+	position: absolute;								/* respecto del extremo izq.sup. del reproductor */
+	left: 2px;											
+	top: 2px; 			
+	}
+     	
+
+	.letra{ 								/* alto botón pausa */
+        position: absolute;								/* respecto del extremo izq.sup. del reproductor */
+	text-align: center;											
+        left:8px;	
+        top: 70px;  
+        font-family:arial;
+        color:#A3A3A3;
+        font-size:13px;
+        font-weight: normal;
+       font-style: italic;			
+	}
+	
+    
+
